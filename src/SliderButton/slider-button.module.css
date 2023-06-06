@@ -1,0 +1,28 @@
+.button {
+    width: calc(7vh + 1px);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    max-height: max-content;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.imgNext {
+    transform: rotateZ(180deg);
+}
+
+.button:hover {
+    box-shadow: 0 31.751px 24.231px rgba(0, 0, 0, 0.0934511),
+    0 16.9756px 12.9551px rgba(0, 0, 0, 0.0774939),
+    0 9.51638px 7.2625px rgba(0, 0, 0, 0.065),
+    0 5.05408px 3.85706px rgba(0, 0, 0, 0.0525061),
+    0 2.10311px 1.60501px rgba(0, 0, 0, 0.0365489);
+    transform: scale(1.05);
+}

@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+
+    background-color: var(--color-white);
+    width: max-content;
+    border-radius: 20px;
+    padding: 20px;
+
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--text-font-size);
+}
+
+.link {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: inherit;
+
+    color: var(--color-lime-text);
+    text-transform: capitalize;
+    text-decoration-line: underline;
+
+    transition: all .3s ease-in-out;
+}
+
+.currentPage {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: inherit;
+
+    margin: 0;
+    padding: 0;
+    color: var(--color-gray-text);
+    cursor: default;
+}
+
+.arrow {
+    margin: 0 20px;
+    padding: 0;
+    color: var(--color-gray-icons);
+
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: inherit;
+
+    cursor: default;
+}
+
+.link:hover {
+    opacity: .5;
+}

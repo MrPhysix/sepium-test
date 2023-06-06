@@ -1,0 +1,7 @@
+.app {
+    --padding-value: 1vw;
+
+    padding: var(--padding-value);
+    background-color: dodgerblue;
+    height: calc(100cqh - var(--padding-value) * 2);
+}
